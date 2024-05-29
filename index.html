@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Лабораторна 2</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+
+
+<body>
+  <div class="product_box">
+	  <form class="adder">
+		  <input type="text" class="input" placeholder="Назва товару" />
+		  <button type="submit" class="adding" data-tooltip="Додати">Додати</button>
+	  </form>
+
+	<section class="tomatoes">
+		<div class="name" contenteditable="false">
+			<p>Помідори</p>
+		</div>
+		<div class="count">
+		  <button class="number">2</button>
+		</div>
+		<div class="status">
+			<button class="bought-t" data-tooltip="Куплено">Не куплено</button>
+		</div>
+	</section>
+
+	<section class="cookies">
+	  <div class="name" contenteditable="true">
+	    <p>Печиво</p>
+	  </div>
+	  <div class="count">
+		  <button class="minus" data-tooltip="відняти">-</button>
+		  <button class="number">2</button>
+		  <button class="plus" data-tooltip="додати">+</button>
+	  </div>
+	  <div class="status">
+		  <button class="bought" data-tooltip="Куплено">Куплено</button>
+		  <button class="cancel" data-tooltip="скасувати">x</button>
+	  </div>
+	</section>
+
+	<section class="cheese">
+	<div class="name" contenteditable="true">
+		<p>Сир</p>
+	</div>
+	<div class="count">
+		<button class="minus" data-tooltip="відняти">-</button>
+		<button class="number">1</button>
+		<button class="plus" data-tooltip="додати">+</button>
+	</div>  
+	<div class="status">
+		<button class="bought" data-tooltip="Куплено">Куплено</button>
+		<button class="cancel" data-tooltip="скасувати">x</button>
+	</div>
+	</section>
+
+  </div>
+  <br/>
+
+  <section class="cart">
+	  <b class="titles">Залишилося</b>
+	<div class="remaining">
+
+	<span class="product-item">Печиво
+    <span class="amount">2
+    </span>
+	</span>
+
+  
+	<span class="product-item">Сир
+		<span class="amount">1
+    </span>
+	</span>
+	
+  </div>
+	<b class="titles">Куплено</b>
+	
+  
+  <div class="bought-item">
+	<span class="product-item">Помідори
+		  <span class="amount">
+        2
+      </span>
+	  </span>
+	</div>
+  </section>
+
+	<button class="popup-container">
+		<b class="buylist">Buy List</b>
+		<p class="creator">Created by:</p>
+		<b class="myname">Bahriantsev</b>
+		<b class="myname">Ivan</b>
+	</button>
+
+</body>
+</html>
